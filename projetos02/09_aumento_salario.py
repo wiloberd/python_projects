@@ -1,4 +1,8 @@
 # Este programa calcula e aplique aumento em salario de funcionário.
+mensagem = 'CALCULADOR DE AUMENTO SALARIAL'
+print('*'*40)
+print('{:^40}'.format(mensagem))
+print('*'*40)
 
 salario = float(input('Digite o salario do funcionário: '))
 
