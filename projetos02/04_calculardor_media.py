@@ -8,6 +8,6 @@ print('*'*40)
 primeira_nota = float(input('Digite a primeira nota: '))
 segunda_nota = float(input('Digite a segunda nota: '))
 
-media = (primeira_nota + segunda_nota) / 2
+media_aritmetica = (primeira_nota + segunda_nota) / 2
 
-print('A média entre {} e {} é igual a: {:.1f}'.format(primeira_nota, segunda_nota, media))
+print('A média entre {} e {} é igual a: {:.1f}'.format(primeira_nota, segunda_nota, media_aritmetica))

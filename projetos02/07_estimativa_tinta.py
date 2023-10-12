@@ -12,8 +12,10 @@ area = largura * altura
 
 # calculando a quantidade necessária de tinta de acordo com a area calculada.
 if (area % 2 != 0):
+    # se a area for um valor decimal, adiciona 1 na parte inteira.
     quantidade_tinta = (area // 2) + 1
 else:
+    # senão divide a area por 2 para determinar a quantidade total em litro.
     quantidade_tinta = (area / 2)
 
 # calculando a quantidade total de dinheiro necessária para o projeto.
@@ -21,4 +23,4 @@ valor_total = quantidade_tinta * 52
 print('A area da sua parede é {:.2f} metro quadrado e tem uma dimensão de {:.1f}x{:.1f}.'.format(area, largura, altura))
 
 print('Você precisará de {:.0f}l de tinta'.format(quantidade_tinta), end=" ")
-print('e de R${:.2f} BRL de investimento para tinta.'.format(valor_total))
+print('e de R${:.2f} BRL de investimento em tinta.'.format(valor_total))

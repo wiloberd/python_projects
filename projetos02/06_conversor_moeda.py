@@ -10,8 +10,8 @@ print('*'*40)
 # cotação do dollar hoje : 5.06 
 cotacao = 5.06
 
-saldo = float(input('Informe a quantidade de dinheiro a ser convertido: '))
+dinheiro_informado = float(input('Informe a quantidade de dinheiro a ser convertido: '))
 
-exchange = saldo / cotacao
+exchange = dinheiro_informado / cotacao
 
-print('R$ {:.2f} BRL vale $ {:.2f} USD'.format(saldo, exchange))
+print('R$ {:.2f} BRL vale $ {:.2f} USD'.format(dinheiro_informado, exchange))

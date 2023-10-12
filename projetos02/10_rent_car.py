@@ -11,6 +11,7 @@ quantidade_dias = int(input('Informe a quantidade de dias: '))
 
 km_percorido = float(input('Informe a quantidade kilometro percorido: '))
 
+# determinando separadamente cada custo e somando eles de acordo com as especificações.
 valor_total = (quantidade_dias * 60) + (km_percorido * 0.15 )
 
 print('''A quantidade de dias de uso do carro foi {}, 

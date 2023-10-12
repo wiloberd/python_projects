@@ -6,9 +6,9 @@ print('*'*40)
 print('{:^40}'.format(mensagem))
 print('*'*40)
 
-valor = float(input('Digite o valor a ser convertido: '))
-resultado_centimetro = valor * 100
-resultado_milimetro =  valor * 1000
+valor_informado = float(input('Digite o valor a ser convertido: '))
+resultado_centimetro = valor_informado * 100
+resultado_milimetro =  valor_informado * 1000
 
-print('A conversão de {} metro para centimetro, é igual a {} CM.'.format(valor, resultado_centimetro))
-print('A conversão de {} metro para milimetro, é igual a {} MM.'.format(valor, resultado_milimetro))
+print('A conversão de {} metro para centimetro, é igual a {} CM.'.format(valor_informado, resultado_centimetro))
+print('A conversão de {} metro para milimetro, é igual a {} MM.'.format(valor_informado, resultado_milimetro))
