@@ -15,6 +15,8 @@ len_nome_completo = len(nome_tratado) - nome_tratado.count(' ')
 print('Seu nome completo tem {} letras'.format(len_nome_completo) )
 print(f'O seu primeiro nome tem {len(nome_dividido[0])} letras')
 
+
+
 # SOBRE O EXERCICIO PROPOSTO
 """
 Exercício Python 22: Crie um programa que leia o nome 

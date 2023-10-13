@@ -11,7 +11,7 @@ print('O seu último nome: {}'.format(nome_dividido[-1]))
 print('O seu último nome: {}'.format(nome_dividido[len(nome_dividido) - 1]))
 
 
-
+# SOBRE O EXERCICIO PROPOSTO
 """
 Exercício Python 27: Faça um programa que leia o nome 
 completo de uma pessoa, mostrando em seguida o primeiro 

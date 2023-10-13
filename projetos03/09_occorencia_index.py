@@ -9,7 +9,7 @@ print('A última occorência apereceu na posição {}'.format(frase_informado.st
 
 
 
-
+# SOBRE O EXERCICIO PROPOSTO
 """
 Exercício Python 26: Faça um programa que leia uma 
 frase pelo teclado e mostre quantas vezes aparece 

@@ -7,6 +7,8 @@ print('A cidade informada começa com rio na sua escrita? : {} '.format(input_tr
 
 print('A cidade informada contém rio na sua escrita? : {} '.format(palavra in input_tratado))
 
+
+# SOBRE O EXERCICIO PROPOSTO
 """
 Exercício Python 24: Crie um programa que leia o nome 
 de uma cidade diga se ela começa ou não com o nome “SANTO”.
