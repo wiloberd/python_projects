@@ -8,6 +8,7 @@ print('*'*40)
 ano_informado = int(input('Digite 0 para verificar o ano atual ou Informe o ano: '))
 
 if ano_informado == 0:
+    # filtrando apenas o ano através do metodo today.
     ano_informado = date.today().year
 
 
