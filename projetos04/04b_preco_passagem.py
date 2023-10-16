@@ -13,7 +13,7 @@ preco_passagem = distancia_informada * 0.50 if distancia_informada <= 200 else d
 print('{} o preço total da sua passagem vai ficar R${:.2f}.'.format(aviso_passagem, preco_passagem) if distancia_informada <= 200  else '{} o preço total da sua passagem vai ficar R${:.2f}.'.format(aviso_passagem, preco_passagem))
 
 
-# SOBRE O EXERCICIO PROPOSTO
+
 """
 Exercício Python 31: Desenvolva um programa que pergunte 
 a distância de uma viagem em Km. Calcule o preço da passagem, 

@@ -1,5 +1,3 @@
-# Este programa leia e calcule e mostre a media entre
-# duas notas de um aluno.
 mensagem = 'CALCULADOR DE MÉDIA ARITMETICA'
 print('*'*40)
 print('{:^40}'.format(mensagem))
