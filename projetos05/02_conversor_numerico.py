@@ -23,8 +23,8 @@ elif (base_informado == 3):
 else:
     print("Opção invalida!")
 
-# SOBRE O EXERCICIO PROPOSTO
 
+# SOBRE O EXERCICIO PROPOSTO
 """
 Exercício Python 37: Escreva um programa em Python que 
 leia um número inteiro qualquer e peça para o usuário 

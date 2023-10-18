@@ -32,7 +32,6 @@ else:
     print(f'Obrigado por contar com o team {mensagem}' )
 
 
-
 # SOBRE O EXERCICIO PROPOSTO
 """
 Exercício Python 36: Escreva um programa para aprovar o empréstimo 

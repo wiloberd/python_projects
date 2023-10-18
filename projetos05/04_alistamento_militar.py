@@ -25,7 +25,6 @@ elif ( idade_cadidato > 18):
 
 
 # SOBRE O EXERCICIO PROPOSTO
-
 """
 Exercício Python 39: Faça um programa que leia o ano de nascimento 
 de um jovem e informe, de acordo com a sua idade, se ele ainda vai 

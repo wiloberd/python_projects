@@ -62,7 +62,7 @@ elif computador_escolha == 'TESOURA':
         print('EMPATE')
 print('-='*20) 
 
-
+# SOBRE O EXERCICIO PROPOSTO
 """
 Exercício Python 45: Crie um programa que faça 
 o computador jogar Jokenpô com você.
