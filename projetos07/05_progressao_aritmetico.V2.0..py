@@ -1,30 +1,30 @@
-mensagem = 'PROGRESSÃO ARITMETICA'
+mensagem = 'PROGRESSÃO ARITMETICA V2.0'
 print('*'*40)
 print('{:^40}'.format(mensagem))
 print('*'*40)
 
+progressao = 0
+contador = 0
 
 inicio_intervalo = int(input('Informe o primeiro termo: '))
 progressao_aritmetica = int(input('Informe a progressão aritmetica: '))
-progressao = 0
-
-fim_intervalo = inicio_intervalo + 10
 
 
-for posicao in range(inicio_intervalo, fim_intervalo):
+while contador < 10:
     if progressao == 0:
         progressao = inicio_intervalo
     else:
         progressao =  progressao + progressao_aritmetica 
 
     print('{} -> '.format(progressao), end= '')
+    contador += 1
 
 print('FIM')
-    
+
 
 # SOBRE O EXERCICIO PROPOSTO
 """
-Exercício Python 51: Desenvolva um programa que leia o 
-primeiro termo e a razão de uma PA. No final, mostre os 
-10 primeiros termos dessa progressão.
+Exercício Python 61: Refaça o DESAFIO 51, lendo o primeiro termo 
+e a razão de uma PA, mostrando os 10 primeiros termos da progressão 
+usando a estrutura while.
 """
