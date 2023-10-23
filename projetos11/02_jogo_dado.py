@@ -45,3 +45,14 @@ for key, value in dict_jogador_ordenada.items():
     print(f'{key+1}º Lugar jogador {value} com {lista_values[key]}' )
 
 print('*'*50)
+
+
+
+
+# SOBRE O EXERCICIO PROPOSTO
+"""
+Exercício Python 091: Crie um programa onde 4 jogadores joguem um dado 
+e tenham resultados aleatórios. Guarde esses resultados em um dicionário 
+em Python. No final, coloque esse dicionário em ordem, sabendo que o 
+vencedor tirou o maior número no dado.
+"""

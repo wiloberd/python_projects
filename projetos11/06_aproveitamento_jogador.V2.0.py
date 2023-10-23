@@ -96,3 +96,13 @@ while levantamento_resposta == "S":
 print('*'*50)
 print('FIM DO PROGRAMA')
 print('*'*50)
+
+
+
+
+# SOBRE O EXERCICIO PROPOSTO
+"""
+Exercício Python 095: Aprimore o desafio 93 para que ele funcione 
+com vários jogadores, incluindo um sistema de visualização de detalhes 
+do aproveitamento de cada jogador.
+"""

@@ -32,3 +32,13 @@ print('*'*50)
 for key, value in dict_aluno.items():
     print(f'{key}: {value}')
 print('*'*50)
+
+
+
+
+# SOBRE O EXERCICIO PROPOSTO
+"""
+Exercício Python 090: Faça um programa que leia nome e média de um aluno, 
+guardando também a situação em um dicionário. No final, mostre o conteúdo 
+da estrutura na tela.
+"""
